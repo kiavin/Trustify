@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/PIW_backend"
+]
+resolver = "2"

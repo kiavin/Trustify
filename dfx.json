@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "PIW_backend": {
+      "candid": "src/PIW_backend/PIW_backend.did",
+      "package": "PIW_backend",
+      "type": "rust"
+    },
+    "PIW_frontend": {
+      "dependencies": [
+        "PIW_backend"
+      ],
+      "source": [
+        "src/PIW_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "PIW_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
