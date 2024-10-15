@@ -1,6 +1,6 @@
 OPT_LEVEL = Some(0)
 TARGET = Some(x86_64-unknown-linux-gnu)
-OUT_DIR = Some(/var/www/html/project/icp/Trustify/target/release/build/psm-80ff4b203f1d54b7/out)
+OUT_DIR = Some(/home/itachi/PIW/target/release/build/psm-80ff4b203f1d54b7/out)
 HOST = Some(x86_64-unknown-linux-gnu)
 cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
 CC_x86_64-unknown-linux-gnu = None
@@ -45,4 +45,4 @@ HOST_ARFLAGS = None
 cargo:rerun-if-env-changed=ARFLAGS
 ARFLAGS = None
 cargo:rustc-link-lib=static=psm_s
-cargo:rustc-link-search=native=/var/www/html/project/icp/Trustify/target/release/build/psm-80ff4b203f1d54b7/out
+cargo:rustc-link-search=native=/home/itachi/PIW/target/release/build/psm-80ff4b203f1d54b7/out
