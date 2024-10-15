@@ -3,7 +3,8 @@
     "PIW_backend": {
       "candid": "src/PIW_backend/PIW_backend.did",
       "package": "PIW_backend",
-      "type": "rust"
+      "type": "rust",
+      "build": "cargo build --target wasm32-unknown-unknown --release"
     },
     "PIW_frontend": {
       "dependencies": [

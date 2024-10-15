@@ -16,7 +16,9 @@
     "src/PIW_frontend"
   ],
   "dependencies": {
+    "@dfinity/auth-client": "^2.1.2",
     "@primevue/themes": "^4.1.0",
+    "gapi-script": "^1.2.0",
     "primeicons": "^7.0.0",
     "primevue": "^4.1.0"
   },
