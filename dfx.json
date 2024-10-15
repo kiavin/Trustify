@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "escrowblock_backend": {
+      "candid": "src/escrowblock_backend/escrowblock_backend.did",
+      "package": "escrowblock_backend",
+      "type": "rust"
+    },
+    "escrowblock_frontend": {
+      "dependencies": [
+        "escrowblock_backend"
+      ],
+      "source": [
+        "src/escrowblock_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "escrowblock_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
