@@ -14,5 +14,15 @@
   "type": "module",
   "workspaces": [
     "src/PIW_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@primevue/themes": "^4.1.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
 }
