@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { escrowblock_backend } from 'declarations/escrowblock_backend/index';
+import Hero from "../components/Hero.vue"
 let greeting = ref('');
 
 async function handleSubmit(e) {
@@ -16,8 +17,7 @@ async function handleSubmit(e) {
 </script>
 
 <template>
-  <div class="container bg-primary">
-  </div>
+   <Hero />
 </template>
 
 <style>
