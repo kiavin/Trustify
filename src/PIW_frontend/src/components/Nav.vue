@@ -1,4 +1,5 @@
 <script setup>
+// No specific JavaScript needed for basic button routing unless you want to add functionality
 </script>
 
 <template>
@@ -8,10 +9,17 @@
             <img src="/logo.png" class="h-6 mr-3 sm:h-9" alt="Landwind Logo">
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-purple-700">Trustify</span>
         </RouterLink>
+        
+        <!-- Right-side buttons for Login and Register -->
         <div class="flex items-center lg:order-2">
-            <div class="hidden mt-2 mr-4 sm:inline-block">
-                <span></span>
-            </div>
+            <RouterLink to="/auth/Login" class="text-purple-700 hover:bg-purple-800 hover:text-white px-4 py-2 border border-purple-700 rounded-lg mr-2  dark:text-purple-700 dark:border-white dark:hover:bg-purple-700 dark:hover:border-purple-600">
+                Login
+            </RouterLink>
+            <RouterLink to="/auth/Register" class="text-white bg-purple-700 hover:bg-purple-600 px-4 py-2 border border-purple-700 rounded-lg dark:bg-purple-600 dark:hover:bg-purple-700">
+                Register
+            </RouterLink>
+            
+            <!-- Mobile Menu Toggle Button -->
             <button data-collapse-toggle="mobile-menu-2" type="button"
 				class="inline-flex items-center p-2 ml-1 text-sm text-purple-700 rounded-lg lg:hidden hover:bg-purple-400 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
 				aria-controls="mobile-menu-2" aria-expanded="true">
@@ -28,13 +36,14 @@
 				</svg>
 			</button>
         </div>
+
         <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
             <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                     <RouterLink to="/"
                         class="block py-2 pl-3 pr-4 text-purple-700 border-b border-gray-100 hover:bg-purple-800 lg:hover:bg-purple-700 lg:border-0 lg:hover:text-white lg:p-0 dark:text-purple-700 lg:dark:hover:text-white dark:hover:bg-purple-800 dark:hover:text-white lg:dark:hover:bg-purple-700 dark:border-gray-700">Home</RouterLink>
                 </li>
-                                <li>
+                <li>
                     <RouterLink to="/About"
                         class="block py-2 pl-3 pr-4 text-purple-700 border-b border-gray-100 hover:bg-purple-800 lg:hover:bg-purple-700 lg:border-0 lg:hover:text-white lg:p-0 dark:text-purple-700 lg:dark:hover:text-white dark:hover:bg-purple-800 dark:hover:text-white lg:dark:hover:bg-purple-700 dark:border-gray-700">About Us</RouterLink>
                 </li>
