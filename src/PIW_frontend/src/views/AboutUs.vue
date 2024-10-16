@@ -1,8 +1,10 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
+import Nav from '@/components/Nav.vue'
 
 </script>
 <template>
+    <Nav />
     <!-- About 7 - Bootstrap Brain Component -->
     <section class="py-3 py-md-5 py-xl-8">
         <div class="container">
@@ -20,7 +22,7 @@ import Footer from '@/components/Footer.vue'
         <div class="container">
             <div class="row gy-4 gy-lg-0 align-items-lg-center">
                 <div class="col-12 col-lg-6">
-                    <img class="img-fluid rounded border border-dark" loading="lazy" src="#"
+                    <img class="img-fluid rounded border border-dark" loading="lazy" src="/cr1.png"
                         alt="About Us">
                 </div>
                 <div class="col-12 col-lg-6 col-xxl-6">

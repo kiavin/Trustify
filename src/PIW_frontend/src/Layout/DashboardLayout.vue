@@ -127,10 +127,9 @@
                 </div>
             </div>
             <main>
-        <slot>
-        </slot>
-    </main>
+                <slot>
+                </slot>
+            </main>
         </div>
-
     </div>
 </template>

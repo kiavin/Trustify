@@ -25,10 +25,9 @@
                                     d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                 </path>
                             </svg>
-                            <div class="ml-4 text-xl">Increase sales</div>
+                            <div class="ml-4 text-xl">Significantly Lower Costs</div>
                         </div>
-                        <p class="leading-loose text-gray-500">Consectetur pariatur irure exercitation sit amet id
-                            consectetur consecteturmagna et Lorem labore qui velit.
+                        <p class="leading-loose text-gray-500">The ICP blockchain has low transaction fees compared to traditional banking or blockchain networks, allowing for affordable, micro-level transactions without the overhead costs associated with escrow agents.
                         </p>
                     </div>
 
@@ -42,11 +41,9 @@
                                     d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                 </path>
                             </svg>
-                            <div class="ml-4 text-xl">Enterprise-ready</div>
+                            <div class="ml-4 text-xl">Enhanced Security and Transparency</div>
                         </div>
-                        <p class="leading-loose text-gray-500">Labore duis pariatur est exercitation laboris cupidatat
-                            amet
-                            cillum. Amet nisi ullamco.
+                        <p class="leading-loose text-gray-500">Smart contracts on ICP automatically enforce the terms of the escrow, reducing the risk of human error or fraud. Funds are only released when predefined conditions are met, providing additional security and confidence for all parties involved.
                         </p>
                     </div>
 
@@ -60,10 +57,9 @@
                                     d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                 </path>
                             </svg>
-                            <div class="ml-4 text-xl">Unlimited growth</div>
+                            <div class="ml-4 text-xl">Faster Transaction Times</div>
                         </div>
-                        <p class="leading-loose text-gray-500">Elit deserunt nisi esse duis cupidatat proident sit minim
-                            mollit officia pariatur incididunt in tempor.
+                        <p class="leading-loose text-gray-500">Traditional escrows involve manual reviews and approvals, which can lead to delays. With ICP, smart contracts automate the entire escrow process, resulting in faster, often instantaneous, transactions once conditions are met.
                         </p>
                     </div>
 
@@ -77,10 +73,9 @@
                                     d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                 </path>
                             </svg>
-                            <div class="ml-4 text-xl">Recommended by experts</div>
+                            <div class="ml-4 text-xl">Better Accessibility and Inclusivity</div>
                         </div>
-                        <p class="leading-loose text-gray-500">Velit sit tempor pariatur quis pariatur incididunt culpa
-                            dolor voluptate officia incididunt velit dolore.
+                        <p class="leading-loose text-gray-500">Traditional escrows are often limited by regional restrictions and local banking systems. ICP allows for global transactions, making it ideal for cross-border transactions without needing to navigate international banking regulations.
                         </p>
                     </div>
 
@@ -94,10 +89,9 @@
                                     d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                 </path>
                             </svg>
-                            <div class="ml-4 text-xl">Modern platform</div>
+                            <div class="ml-4 text-xl">Scalability and Efficiency</div>
                         </div>
-                        <p class="leading-loose text-gray-500">Laboris elit consectetur sint nisi eu mollit proident sit
-                            magna velit adipisicing consequat amet reprehenderit.
+                        <p class="leading-loose text-gray-500">ICP offers a stable and persistent environment for smart contracts, ensuring that escrow services are consistently accessible without downtime.
                         </p>
                     </div>
 
