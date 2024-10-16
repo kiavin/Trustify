@@ -5,7 +5,7 @@
 <footer class="py-3 py-md-4 py-xl-5">
 
 <!-- Logo - Bootstrap Brain Component -->
-<div class="footer-main bg-purple-700">
+<div class="footer-main bg-white">
   <div class="container border-bottom pb-3 pb-md-4">
     <div class="row gy-3 align-items-center">
       <div class="col-12 col-sm-6x col-md-4 col-xl-3">
@@ -46,7 +46,7 @@
 </div>
 
 <!-- Widgets - Bootstrap Brain Component -->
-<section class="py-4 py-md-5 py-xl-6 py-xxl-8">
+<section class="py-4 py-md-5 py-xl-6 py-xxl-8 gradient-section">
   <div class="container">
     <div class="row gy-3">
       <div class="col-6 col-md-3">
@@ -295,3 +295,11 @@
 
 </footer>
 </template>
+
+<style scoped> 
+.gradient-section {
+    background: linear-gradient(to bottom, #3a7bd5, #00d2ff); /* Adjust colors as needed */
+    color: #fff; /* Optional: set text color for contrast */
+}
+</style>
+

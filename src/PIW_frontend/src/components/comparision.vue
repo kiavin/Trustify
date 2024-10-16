@@ -2,13 +2,13 @@
 </script>
 <template>
     <section id="comparison" aria-label="QuickEdit vs traditional editor"
-        class="bg-slate-50 dark:bg-gray-800 py-20 sm:py-32">
+        class="bg-slate-50 dark:bg-white py-20 sm:py-32">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="mx-auto max-w-2xl md:text-center">
-                <h2 class="font-display text-3xl tracking-tight text-slate-900 dark:text-white sm:text-4xl">The Faster,
+                <h2 class="font-display text-3xl tracking-tight text-slate-900 dark:text-purple-800 sm:text-4xl">The Faster,
                     Affordable, Better
                     Solution</h2>
-                <p class="mt-4 text-lg tracking-tight text-slate-700 dark:text-gray-300">Discover the advantages of
+                <p class="mt-4 text-lg tracking-tight text-slate-700 dark:text-gray-900">Discover the advantages of
                     choosing QuickEdit over a
                     traditional editor. Say goodbye to delays and elevate your content creation process.</p>
             </div>

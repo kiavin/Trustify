@@ -40,11 +40,8 @@
                             <line x1="17" y1="17" x2="17" y2="17.01"></line>
                         </svg>
                     </div>
-                    <h3 class="mt-6 text-gray-950">Customizable</h3>
-                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-900">Tailor your landing
-                        page's
-                        look
-                        and feel, from the color scheme to the font size, to the design of the page.
+                    <h3 class="mt-6 text-gray-950">Flexible & Scalable</h3>
+                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-900">Tailor escrow contracts to meet the specific needs of your transaction, from simple agreements to complex, multi-stage deals.
                     </p>
                 </div>
 
@@ -59,10 +56,8 @@
                             <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3"></polyline>
                         </svg>
                     </div>
-                    <h3 class="mt-6 text-gray-950">Fast Performance</h3>
-                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-900">We build our templates
-                        for
-                        speed in mind, for super-fast load times so your customers never waver.
+                    <h3 class="mt-6 text-gray-950">Full Transparency</h3>
+                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-900">Track Every Transaction: All escrow transactions are recorded on the blockchain, providing a transparent record that’s visible and verifiable by all parties
                     </p>
                 </div>
 
@@ -82,10 +77,9 @@
                             <line x1="16" y1="17" x2="14.5" y2="18.5"></line>
                         </svg>
                     </div>
-                    <h3 class="mt-6 text-gray-950">Fully Featured</h3>
+                    <h3 class="mt-6 text-gray-950">Blockchain-Powered</h3>
                     <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-900">
-                        Everything you need to
-                        succeed
+                         Leveraging blockchain technology ensures that your transactions are secure, immutable, and tamper-proof.
                         and launch your landing page, right out of the box. No need to install anything else.
                     </p>
                 </div>
