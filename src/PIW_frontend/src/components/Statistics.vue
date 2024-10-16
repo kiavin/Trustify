@@ -6,7 +6,7 @@
     <div class="flex items-center shadow justify-between p-4 bg-white rounded-md">
         <div>
             <h6 class="text-xs font-medium leading-none tracking-wider text-gray-500 uppercase">
-                Value
+                Escrow Volume
             </h6>
             <span class="text-xl font-semibold">$30,000</span>
             <span class="inline-block px-2 py-px ml-2 text-xs text-green-500 bg-green-100 rounded-md">
@@ -29,11 +29,11 @@
     <div class="flex items-center shadow justify-between p-4 bg-white rounded-md">
         <div>
             <h6 class="text-xs font-medium leading-none tracking-wider text-gray-500 uppercase">
-                Users
+                Fraud Prevention Stats
             </h6>
-            <span class="text-xl font-semibold">50,021</span>
+            <span class="text-xl font-semibold">50</span>
             <span class="inline-block px-2 py-px ml-2 text-xs text-green-500 bg-green-100 rounded-md">
-                +2.6%
+                +2.6% this month
             </span>
         </div>
         <div>
@@ -74,11 +74,11 @@
     <div class="flex items-center shadow justify-between p-4 bg-white rounded-md">
         <div>
             <h6 class="text-xs font-medium leading-none tracking-wider text-gray-500 uppercase">
-                Tickets
+                Dispute Tickets
             </h6>
-            <span class="text-xl font-semibold">20,516</span>
+            <span class="text-xl font-semibold">2</span>
             <span class="inline-block px-2 py-px ml-2 text-xs text-green-500 bg-green-100 rounded-md">
-                +3.1%
+                Active
             </span>
         </div>
         <div>

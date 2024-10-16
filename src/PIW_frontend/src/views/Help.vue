@@ -1,11 +1,8 @@
 <script setup>
 import DashboardLayout from '@/Layout/DashboardLayout.vue';
-import Table from '@/components/Table.vue'
 </script>
-
 <template>
-
-<DashboardLayout>
-    <Table />
-</DashboardLayout>
+    <DashboardLayout>
+        <h1> helpdesk</h1>
+    </DashboardLayout>
 </template>

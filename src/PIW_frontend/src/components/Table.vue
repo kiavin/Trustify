@@ -17,10 +17,10 @@
                                 </th>
                                 <th scope="col"
                                     class="p-5 text-left whitespace-nowrap text-sm leading-6 font-semibold text-gray-900 capitalize">
-                                    Company </th>
+                                    Transaction Tittle </th>
                                 <th scope="col"
                                     class="p-5 text-left whitespace-nowrap text-sm leading-6 font-semibold text-gray-900 capitalize">
-                                    User ID </th>
+                                    Transaction ID </th>
                                 <th scope="col"
                                     class="p-5 text-left whitespace-nowrap text-sm leading-6 font-semibold text-gray-900 capitalize min-w-[150px]">
                                     Full Name &amp; Email </th>
@@ -32,10 +32,10 @@
                                     Industry Type </th>
                                 <th scope="col"
                                     class="p-5 text-left whitespace-nowrap text-sm leading-6 font-semibold text-gray-900 capitalize">
-                                    Join Date </th>
+                                    Due Date </th>
                                 <th scope="col"
                                     class="p-5 text-left whitespace-nowrap text-sm leading-6 font-semibold text-gray-900 capitalize">
-                                    Budget </th>
+                                    Amount </th>
                                 <th scope="col"
                                     class="p-5 text-left whitespace-nowrap text-sm leading-6 font-semibold text-gray-900 capitalize">
                                     Country </th>
@@ -61,7 +61,7 @@
                                 </td>
                                 <td class=" px-5 py-3">
                                     <div class="w-48 flex items-center gap-3">
-                                        <img src="https://pagedone.io/asset/uploads/1697536419.png" alt="Floyd image">
+                                        <img src="/usr1.jpeg" alt="Floyd image">
                                         <div class="data">
                                             <p class="font-normal text-sm text-gray-900">Floyd Miles</p>
                                             <p class="font-normal text-xs leading-5 text-gray-400">
@@ -132,7 +132,7 @@
                                 </td>
                                 <td class="w-48 px-5 py-3">
                                     <div class="flex items-center gap-3">
-                                        <img src="https://pagedone.io/asset/uploads/1697536435.png"
+                                        <img src="/usr2.jpeg"
                                             alt="Savannah image">
                                         <div class="data">
                                             <p class="font-normal text-sm text-gray-900">Savannah Nguyen</p>
@@ -204,7 +204,7 @@
                                 </td>
                                 <td class="w-48 px-5 py-3 whitespace-nowrap">
                                     <div class="flex items-center gap-3">
-                                        <img src="https://pagedone.io/asset/uploads/1697536451.png" alt="Cameron image">
+                                        <img src="/usr3.jpeg" alt="Cameron image">
                                         <div class="data min-w-[150px]">
                                             <p class="font-normal text-sm text-gray-900 whitespace-nowrap">Cameron
                                                 Williamson</p>
@@ -276,7 +276,7 @@
                                 </td>
                                 <td class="w-48 px-5 py-3">
                                     <div class="flex items-center gap-3">
-                                        <img src="https://pagedone.io/asset/uploads/1697536466.png" alt="Darrell image">
+                                        <img src="/usr4.jpeg" alt="Darrell image">
                                         <div class="data">
                                             <p class="font-normal text-sm text-gray-900">Darrell Steward</p>
                                             <p class="font-normal text-xs leading-5 text-gray-400">
@@ -347,7 +347,7 @@
                                 </td>
                                 <td class="w-48 px-5 py-3">
                                     <div class="flex items-center gap-3">
-                                        <img src="https://pagedone.io/asset/uploads/1697536479.png" alt="Laura image">
+                                        <img src="/usr5.jpeg" alt="Laura image">
                                         <div class="data">
                                             <p class="font-normal text-sm text-gray-900">Laura Bran</p>
                                             <p class="font-normal text-xs leading-5 text-gray-400">
@@ -418,7 +418,7 @@
                                 </td>
                                 <td class="w-48 px-5 py-3">
                                     <div class="flex items-center gap-3">
-                                        <img src="https://pagedone.io/asset/uploads/1697536494.png" alt="Alfred image">
+                                        <img src="/usr6.jpeg" alt="Alfred image">
                                         <div class="data">
                                             <p class="font-normal text-sm text-gray-900">Alfred Frook</p>
                                             <p class="font-normal text-xs leading-5 text-gray-400">
@@ -488,7 +488,7 @@
                                 </td>
                                 <td class="w-48 px-5 py-3 whitespace-nowrap">
                                     <div class="flex items-center gap-3">
-                                        <img src="https://pagedone.io/asset/uploads/1697536512.png" alt="Claire image">
+                                        <img src="/usr7.jpeg" alt="Claire image">
                                         <div class="data min-w-[150px]">
                                             <p class="font-normal text-sm text-gray-900 whitespace-nowrap">Claire Tran
                                             </p>
@@ -559,7 +559,7 @@
                                 </td>
                                 <td class="w-48 px-5 py-3">
                                     <div class="flex items-center gap-3">
-                                        <img src="https://pagedone.io/asset/uploads/1697536525.png" alt="Sam image">
+                                        <img src="/usr8.jpeg" alt="Sam image">
                                         <div class="data">
                                             <p class="font-normal text-sm text-gray-900">Sam John</p>
                                             <p class="font-normal text-xs leading-5 text-gray-400"> samjohn@pagedone.io
@@ -630,7 +630,7 @@
                                 </td>
                                 <td class="w-48 px-5 py-3 whitespace-nowrap">
                                     <div class="flex items-center gap-3">
-                                        <img src="https://pagedone.io/asset/uploads/1697536552.png" alt="Richard image">
+                                        <img src="/usr9.jpeg" alt="Richard image">
                                         <div class="data min-w-[150px]">
                                             <p class="font-normal text-sm text-gray-900 whitespace-nowrap">Richard
                                                 Riccio </p>
@@ -696,3 +696,10 @@
         </div>
     </div>
 </template>
+<style scoped>
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+</style>

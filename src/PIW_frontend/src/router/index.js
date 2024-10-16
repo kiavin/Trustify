@@ -16,11 +16,31 @@ const routes = [
         path: '/About',
         name: 'about',
         component: () => import('@/views/AboutUs.vue')
-        
+
     },
     {
         path: '/auth/Register',
         component: Register
+    },
+    {
+        path: '/dashboard/new-transaction',
+        name: 'new-transaction',
+        component: () => import('@/views/Transaction.vue')
+    },
+    {
+        path: '/dashboard/Escrow-Transactions',
+        name: 'escrow-transactions',
+        component: () => import('@/views/EscrowTransaction.vue')
+    },
+    {
+        path: '/dashboard/Help',
+        name: 'help',
+        component: () => import('@/views/Help.vue')
+    },
+    {
+        path: '/dashboard/wallet',
+        name: 'wallet',
+        component: () => import('@/views/Wallet.vue')
     },
     {
         path: '/dashboard',
