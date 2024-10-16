@@ -23,3 +23,6 @@ dist/
 
 # environment variables
 .env
+
+
+nowfor the releasing of funds is there a way i can use mpesa for that ie money released from mpesa after an stk push then this money will be sent to the escrow app account be saved in crypto wallets or how can this monet be transfered from mpesa and be holded in the escrow app then after both parties the money will be sent to the seller mpesa is that possible can we have a contrct for that or it will be just withing the scrow,, also was asking is it possiblle to have one smart contact that will have all the logic for auth ,,escrow logic,, and mpesa intergration logic
