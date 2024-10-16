@@ -1,80 +1,30 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { useRouter } from 'vue-router';
 import { AuthClient } from '@dfinity/auth-client';
-import { Actor, HttpAgent } from '@dfinity/agent';
-import { idlFactory as piwIdl } from '../../../../declarations/PIW_backend/PIW_backend.did.js';
 
-const principal = ref('');
+const router = useRouter();
 
 const loginWithInternetIdentity = async () => {
+  console.log('Starting Internet Identity login'); // Debug log
   const authClient = await AuthClient.create();
   await authClient.login({
     identityProvider: `http://localhost:4943/?canisterId=${import.meta.env.VITE_CANISTER_ID_INTERNET_IDENTITY}`,
-    onSuccess: async () => {
-      const identity = authClient.getIdentity();
-      const agent = new HttpAgent({ identity });
-
-      const piwId = import.meta.env.VITE_CANISTER_ID_PIW_BACKEND;
-
-      const piwActor = Actor.createActor(piwIdl, {
-        agent,
-        canisterId: piwId,
-      });
-
-      const userPrincipal = await piwActor.whoami();
-      console.log('Principal:', userPrincipal); // Log the principal value to the console
-      principal.value = userPrincipal.toText();
+    onSuccess: () => {
+      console.log('Internet Identity login successful'); // Debug log
+      // Redirect to /dashboard
+      console.log('Redirecting to /dashboard'); // Debug log
+      router.push('/dashboard');
     },
   });
 };
 
-// Initialize Google API client
-const initGoogleAPI = () => {
-  gapi.load('client:auth2', () => {
-    gapi.client.init({
-      clientId: import.meta.env.VITE_GOOGLE_CLIENT_ID,
-      scope: 'profile email',
-    }).then(() => {
-      console.log('Google API client initialized');
-    }).catch(error => {
-      console.error('Error initializing Google API client', error);
-    });
-  });
-};
-
-// Load the Google API script
-const loadGoogleAPI = () => {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = 'https://apis.google.com/js/api.js';
-    script.onload = resolve;
-    script.onerror = reject;
-    document.head.appendChild(script);
-  });
-};
-
-// Call initGoogleAPI on component mount
-onMounted(async () => {
-  try {
-    await loadGoogleAPI();
-    initGoogleAPI();
-  } catch (error) {
-    console.error('Error loading Google API script', error);
-  }
-});
-
 const loginWithGoogle = async () => {
-  const auth2 = gapi.auth2.getAuthInstance();
-  auth2.signIn().then(googleUser => {
-    const profile = googleUser.getBasicProfile();
-    console.log('ID: ' + profile.getId());
-    console.log('Name: ' + profile.getName());
-    console.log('Image URL: ' + profile.getImageUrl());
-    console.log('Email: ' + profile.getEmail());
-    // You can now use the profile information to authenticate with your backend
-  }).catch(error => {
-    console.error('Error signing in with Google', error);
-  });
+  console.log('Starting Google login'); // Debug log
+  // Simulate Google login success
+  console.log('Google login successful'); // Debug log
+  // Redirect to /dashboard
+  console.log('Redirecting to /dashboard'); // Debug log
+  router.push('/dashboard');
 };
 </script>
 

@@ -1,9 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import Home from '../views/Home.vue';
 import Register from '@/views/auth/Register.vue';
 import Dashboard from '@/views/Dashboard.vue';
 import EscrowTransaction from '@/views/EscrowTransaction.vue';
-
 
 const routes = [
     // Default Pages
@@ -16,7 +15,6 @@ const routes = [
         path: '/About',
         name: 'about',
         component: () => import('@/views/AboutUs.vue')
-        
     },
     {
         path: '/auth/Register',
@@ -34,8 +32,7 @@ const routes = [
         path: '/auth/Login',
         component: () => import('@/views/auth/Login.vue')
     }
-
-]
+];
 
 const router = createRouter({
     linkActiveClass: 'active',
@@ -43,12 +40,6 @@ const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     base: import.meta.env.BASE_URL,
     routes
-})
+});
 
-// router.beforeEach(async (to, from, next) => {
-
-
-
-// })
-
-export default router
+export default router;

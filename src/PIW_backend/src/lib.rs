@@ -14,11 +14,6 @@ fn init() {
     });
 }
 
-#[update]
-fn whoami() -> Principal {
-    caller()
-}
-
 #[query]
 fn get_owner() -> Option<Principal> {
     OWNER.with(|owner| *owner.borrow())
