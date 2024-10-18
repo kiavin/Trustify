@@ -1,6 +1,8 @@
 <script setup>
 import DashboardLayout from '../Layout/DashboardLayout.vue';
+import { PIW_backend } from 'declarations/PIW_backend/index';
 import { ref } from 'vue';
+let  initiate_escrow = ref('');
 
 const transactionTitle = ref('');
 const fullName = ref('');
