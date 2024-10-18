@@ -14,14 +14,12 @@
                 </span>
                 <h2
                     class="block w-full bg-gradient-to-b from-black to-purple-900 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
-                    Build a Website That Your Customers Love
+                    Secure, Transparent Blockchain based Escrow
                 </h2>
                 <p
                     class="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-900">
-                    Our templates allow for maximum customization. No technical skills required – our intuitive design
-                    tools
-                    let
-                    you get the job done easily.
+                    A secure, transparent blockchain-based escrow system leverages blockchain technology to facilitate trust in transactions between buyers and sellers. It acts as an intermediary that holds funds or assets during a transaction, releasing them only when predefined conditions are met, ensuring both parties fulfill their obligations.
+                   
                 </p>
             </div>
 
