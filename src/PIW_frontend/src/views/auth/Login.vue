@@ -1,4 +1,26 @@
 <script setup>
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+import { AuthClient } from '@dfinity/auth-client';
+
+const router = useRouter();
+
+const loginWithInternetIdentity = async () => {
+  console.log('Starting Internet Identity login'); // Debug log
+  const authClient = await AuthClient.create();
+  await authClient.login({
+    identityProvider: `https://identity.ic0.app/?canisterId=${import.meta.env.VITE_CANISTER_ID_INTERNET_IDENTITY}`,
+    onSuccess: () => {
+      console.log('Login successful'); // Debug log
+      // Redirect to /dashboard
+      console.log('Redirecting to /dashboard'); // Debug log
+      router.push('/dashboard');
+    },
+    onError: (error) => {
+      console.error('Login failed', error); // Debug log
+    },
+  });
+};
 </script>
 <template>
 <!-- https://play.tailwindcss.com/MIwj5Sp9pw -->
@@ -27,7 +49,7 @@
                             fill="#1976D2" />
                     </svg> -->
                 </div>
-                <h1 class="px-4 py-3 w-5/6 text-center text-gray-600 font-bold">Sign in with Internet Identity</h1>
+                <button @click="loginWithInternetIdentity" class="px-4 py-3 w-5/6 text-center text-gray-600 font-bold">Sign in with Internet Identity</button>
             </a>
             <div class="mt-4 flex items-center justify-between">
                 <span class="border-b w-1/5 lg:w-1/4"></span>
