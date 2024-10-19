@@ -1,3 +1,51 @@
-service : {
-    "greet": (text) -> (text) query;
+type DisputeDecision = variant { RefundBuyer; ReleaseFunds };
+type EscrowAgreement = record {
+  status : EscrowStatus;
+  terms : text;
+  agreed_at : opt nat64;
+  created_at : nat64;
+  seller : principal;
+  release_method : opt ReleaseMethod;
+  funded_at : opt nat64;
+  buyer : principal;
+  disputed_at : opt nat64;
+  escrow_id : nat64;
+  amount : nat64;
+  shipped_at : opt nat64;
+  resolved_at : opt nat64;
+  released_at : opt nat64;
+};
+type EscrowStatus = variant {
+  Disputed;
+  Refunded;
+  GoodsShipped;
+  Agreed;
+  Funded;
+  FundsReleased;
+  Created;
+  Resolved;
+};
+type ReleaseMethod = variant { Icp };
+type Result = variant { Ok; Err : text };
+type Result_1 = variant { Ok : EscrowAgreement; Err : text };
+type Result_2 = variant { Ok : record { principal; principal }; Err : text };
+type Result_3 = variant { Ok : nat64; Err : text };
+service : () -> {
+  agree_escrow : (nat64) -> (Result);
+  cancel_escrow : (nat64) -> (Result);
+  confirm_goods_received : (nat64, ReleaseMethod) -> (Result);
+  confirm_goods_shipped : (nat64) -> (Result);
+  confirm_icp_transfer : (nat64) -> (Result);
+  fund_escrow : (nat64) -> (Result);
+  get_escrow : (nat64) -> (Result_1) query;
+  get_owner : () -> (opt principal) query;
+  get_participants : (nat64) -> (Result_2) query;
+  initiate_escrow : (principal, principal, nat64, text) -> (Result_3);
+  list_my_escrows : () -> (vec EscrowAgreement) query;
+  open_dispute : (nat64) -> (Result);
+  resolve_dispute : (nat64, DisputeDecision) -> (Result);
+  set_admin : (principal) -> (Result);
+  set_off_chain_server : (principal) -> (Result);
+  set_owner : (principal) -> ();
+  whoami : () -> (principal);
 }
