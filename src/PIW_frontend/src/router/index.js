@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Register from '@/views/auth/Register.vue';
 import Dashboard from '@/views/Dashboard.vue';
 import EscrowTransaction from '@/views/EscrowTransaction.vue';
+import Fund from '@/views/Fund.vue';
 
 
 const routes = [
@@ -28,6 +29,11 @@ const routes = [
         component: () => import('@/views/Transaction.vue')
     },
     {
+        path: '/dashboard/fund-escrow',
+        name: 'fund-escrow',
+        component: () => import('@/views/Fund.vue')
+    },
+    {
         path: '/dashboard/Escrow-Transactions',
         name: 'escrow-transactions',
         component: () => import('@/views/EscrowTransaction.vue')
@@ -49,6 +55,10 @@ const routes = [
     {
         path: '/escrow',
         component: EscrowTransaction
+    },
+    {
+       path: '/fund',
+       component: Fund
     },
     {
         path: '/auth/Login',
