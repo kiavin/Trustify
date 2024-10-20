@@ -32,6 +32,17 @@ export const idlFactory = ({ IDL }) => {
     'Ok' : IDL.Tuple(IDL.Principal, IDL.Principal),
     'Err' : IDL.Text,
   });
+  const HttpRequest = IDL.Record({
+    'url' : IDL.Text,
+    'method' : IDL.Text,
+    'body' : IDL.Vec(IDL.Nat8),
+    'headers' : IDL.Vec(IDL.Tuple(IDL.Text, IDL.Text)),
+  });
+  const HttpResponse = IDL.Record({
+    'body' : IDL.Vec(IDL.Nat8),
+    'headers' : IDL.Vec(IDL.Tuple(IDL.Text, IDL.Text)),
+    'status_code' : IDL.Nat16,
+  });
   const Result_3 = IDL.Variant({ 'Ok' : IDL.Nat64, 'Err' : IDL.Text });
   const DisputeDecision = IDL.Variant({
     'RefundBuyer' : IDL.Null,
@@ -51,8 +62,9 @@ export const idlFactory = ({ IDL }) => {
     'get_escrow' : IDL.Func([IDL.Nat64], [Result_1], ['query']),
     'get_owner' : IDL.Func([], [IDL.Opt(IDL.Principal)], ['query']),
     'get_participants' : IDL.Func([IDL.Nat64], [Result_2], ['query']),
+    'http_request' : IDL.Func([HttpRequest], [HttpResponse], ['query']),
     'initiate_escrow' : IDL.Func(
-        [IDL.Principal, IDL.Principal, IDL.Nat64, IDL.Text],
+        [IDL.Text, IDL.Text, IDL.Nat64, IDL.Text],
         [Result_3],
         [],
       ),

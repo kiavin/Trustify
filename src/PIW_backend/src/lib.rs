@@ -159,8 +159,8 @@ fn set_off_chain_server(server_principal: Principal) -> Result<(), String> {
 /// * `terms` - Terms of the escrow agreement
 #[ic_cdk::update]
 fn initiate_escrow(
-    seller: Principal,
-    buyer: Principal,
+    seller_str: String,
+    buyer_str: String,
     amount_e8s: u64,
     terms: String,
 ) -> Result<u64, String> {
@@ -168,6 +168,12 @@ fn initiate_escrow(
     if amount_e8s == 0 {
         return Err("Amount must be greater than zero.".to_string());
     }
+
+    // Parse buyer and seller into Principals
+    let buyer = Principal::from_text(buyer_str)
+        .map_err(|_| "Failed to parse buyer Principal".to_string())?;
+    let seller = Principal::from_text(seller_str)
+        .map_err(|_| "Failed to parse seller Principal".to_string())?;
 
     // Generate unique escrow_id
     let escrow_id = NEXT_ESCROW_ID.with(|id| {
@@ -202,7 +208,6 @@ fn initiate_escrow(
     Ok(escrow_id)
 }
 
-/// Seller agrees to the escrow terms.
 #[ic_cdk::update]
 fn agree_escrow(escrow_id: u64) -> Result<(), String> {
     let caller = ic_cdk::caller();

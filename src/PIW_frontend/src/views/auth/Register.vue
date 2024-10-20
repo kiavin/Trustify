@@ -9,7 +9,7 @@ const loginWithInternetIdentity = async () => {
   console.log('Starting Internet Identity login'); // Debug log
   const authClient = await AuthClient.create();
   await authClient.login({
-    identityProvider: `https://identity.ic0.app/?canisterId=${import.meta.env.VITE_CANISTER_ID_INTERNET_IDENTITY}`,
+    identityProvider: `https://identity.ic0.app/?canisterId=${import.meta.env.CANISTER_ID_INTERNET_IDENTITY}`,
     onSuccess: () => {
       console.log('Login successful'); // Debug log
       // Redirect to /dashboard

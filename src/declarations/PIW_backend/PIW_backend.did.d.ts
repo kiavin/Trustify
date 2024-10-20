@@ -28,6 +28,17 @@ export type EscrowStatus = { 'Disputed' : null } |
   { 'FundsReleased' : null } |
   { 'Created' : null } |
   { 'Resolved' : null };
+export interface HttpRequest {
+  'url' : string,
+  'method' : string,
+  'body' : Uint8Array | number[],
+  'headers' : Array<[string, string]>,
+}
+export interface HttpResponse {
+  'body' : Uint8Array | number[],
+  'headers' : Array<[string, string]>,
+  'status_code' : number,
+}
 export type ReleaseMethod = { 'Icp' : null };
 export type Result = { 'Ok' : null } |
   { 'Err' : string };
@@ -47,10 +58,8 @@ export interface _SERVICE {
   'get_escrow' : ActorMethod<[bigint], Result_1>,
   'get_owner' : ActorMethod<[], [] | [Principal]>,
   'get_participants' : ActorMethod<[bigint], Result_2>,
-  'initiate_escrow' : ActorMethod<
-    [Principal, Principal, bigint, string],
-    Result_3
-  >,
+  'http_request' : ActorMethod<[HttpRequest], HttpResponse>,
+  'initiate_escrow' : ActorMethod<[string, string, bigint, string], Result_3>,
   'list_my_escrows' : ActorMethod<[], Array<EscrowAgreement>>,
   'open_dispute' : ActorMethod<[bigint], Result>,
   'resolve_dispute' : ActorMethod<[bigint, DisputeDecision], Result>,

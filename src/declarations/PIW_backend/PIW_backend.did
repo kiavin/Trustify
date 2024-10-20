@@ -25,6 +25,17 @@ type EscrowStatus = variant {
   Created;
   Resolved;
 };
+type HttpRequest = record {
+  url : text;
+  method : text;
+  body : blob;
+  headers : vec record { text; text };
+};
+type HttpResponse = record {
+  body : blob;
+  headers : vec record { text; text };
+  status_code : nat16;
+};
 type ReleaseMethod = variant { Icp };
 type Result = variant { Ok; Err : text };
 type Result_1 = variant { Ok : EscrowAgreement; Err : text };
@@ -40,7 +51,8 @@ service : () -> {
   get_escrow : (nat64) -> (Result_1) query;
   get_owner : () -> (opt principal) query;
   get_participants : (nat64) -> (Result_2) query;
-  initiate_escrow : (principal, principal, nat64, text) -> (Result_3);
+  http_request : (HttpRequest) -> (HttpResponse) query;
+  initiate_escrow : (text, text, nat64, text) -> (Result_3);
   list_my_escrows : () -> (vec EscrowAgreement) query;
   open_dispute : (nat64) -> (Result);
   resolve_dispute : (nat64, DisputeDecision) -> (Result);
