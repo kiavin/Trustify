@@ -3,8 +3,7 @@
 <template>
     <div class="bg-white">
 
-        <section id="features"
-            class="relative block px-6 py-10 md:py-20 md:px-10  bg-neutral-50">
+        <section id="features" class="relative block px-6 py-10 md:py-20 md:px-10  bg-neutral-50">
 
 
             <div class="relative mx-auto max-w-5xl text-center">
@@ -18,8 +17,11 @@
                 </h2>
                 <p
                     class="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-900">
-                    A secure, transparent blockchain-based escrow system leverages blockchain technology to facilitate trust in transactions between buyers and sellers. It acts as an intermediary that holds funds or assets during a transaction, releasing them only when predefined conditions are met, ensuring both parties fulfill their obligations.
-                   
+                    A secure, transparent blockchain-based escrow system leverages blockchain technology to facilitate
+                    trust in transactions between buyers and sellers. It acts as an intermediary that holds funds or
+                    assets during a transaction, releasing them only when predefined conditions are met, ensuring both
+                    parties fulfill their obligations.
+
                 </p>
             </div>
 
@@ -39,7 +41,9 @@
                         </svg>
                     </div>
                     <h3 class="mt-6 text-gray-950">Flexible & Scalable</h3>
-                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-900">Tailor escrow contracts to meet the specific needs of your transaction, from simple agreements to complex, multi-stage deals.
+                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-900">Tailor escrow contracts
+                        to meet the specific needs of your transaction, from simple agreements to complex, multi-stage
+                        deals.
                     </p>
                 </div>
 
@@ -55,7 +59,9 @@
                         </svg>
                     </div>
                     <h3 class="mt-6 text-gray-950">Full Transparency</h3>
-                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-900">Track Every Transaction: All escrow transactions are recorded on the blockchain, providing a transparent record that’s visible and verifiable by all parties
+                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-900">Track Every
+                        Transaction: All escrow transactions are recorded on the blockchain, providing a transparent
+                        record that’s visible and verifiable by all parties
                     </p>
                 </div>
 
@@ -77,11 +83,12 @@
                     </div>
                     <h3 class="mt-6 text-gray-950">Blockchain-Powered</h3>
                     <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-900">
-                         Leveraging blockchain technology ensures that your transactions are secure, immutable, and tamper-proof.
+                        Leveraging blockchain technology ensures that your transactions are secure, immutable, and
+                        tamper-proof.
                         and launch your landing page, right out of the box. No need to install anything else.
                     </p>
                 </div>
-                <div class="rounded-md border border-neutral-50 bg-white p-8 text-center shadow">
+                <!-- <div class="rounded-md border border-neutral-50 bg-white p-8 text-center shadow">
                     <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                         style="background-image: linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%); border-color: #000;">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="24"
@@ -102,7 +109,7 @@
                         succeed
                         and launch your landing page, right out of the box. No need to install anything else.
                     </p>
-                </div>
+                </div> -->
 
             </div>
         </section>

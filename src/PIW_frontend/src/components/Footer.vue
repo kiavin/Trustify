@@ -2,7 +2,7 @@
 </script>
 <template>
     <!-- Footer 9 - Bootstrap Brain Component -->
-<footer class="py-3 py-md-4 py-xl-5">
+<footer class="py-md-4 py-xl-5">
 
 <!-- Logo - Bootstrap Brain Component -->
 <div class="footer-main bg-white">
@@ -45,41 +45,42 @@
   </div>
 </div>
 
+<section class="gradient-section">
 <!-- Widgets - Bootstrap Brain Component -->
-<section class="py-4 py-md-5 py-xl-6 py-xxl-8 gradient-section">
+<section class="py-4 py-md-5 py-xl-6 py-xxl-8 ">
   <div class="container">
     <div class="row gy-3">
       <div class="col-6 col-md-3">
         <div class="link-wrapper">
-          <h4 class="mb-3 fw-bold fs-6">Platform</h4>
+          <h4 class="mb-3 fw-bold fs-6 text-white">Platform</h4>
           <ul class="m-0 list-unstyled">
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class=" text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Overview
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class=" text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Framer
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class=" text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Extensions
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Connected
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Building
               </a>
             </li>
             <li>
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class=" text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Data
               </a>
             </li>
@@ -88,35 +89,35 @@
       </div>
       <div class="col-6 col-md-3">
         <div class="link-wrapper">
-          <h4 class="mb-3 fw-bold fs-6">Solutions</h4>
+          <h4 class="mb-3 fw-bold fs-6 text-white">Solutions</h4>
           <ul class="m-0 list-unstyled">
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Operations
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Marketing
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Documents
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Product
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Finance
               </a>
             </li>
             <li>
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Sales
               </a>
             </li>
@@ -125,35 +126,35 @@
       </div>
       <div class="col-6 col-md-3">
         <div class="link-wrapper">
-          <h4 class="mb-3 fw-bold fs-6">Learn</h4>
+          <h4 class="mb-3 fw-bold fs-6 text-white">Learn</h4>
           <ul class="m-0 list-unstyled">
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Events
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Integrations
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Learning
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Webinars
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Customer
               </a>
             </li>
             <li>
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Webinars
               </a>
             </li>
@@ -162,35 +163,35 @@
       </div>
       <div class="col-6 col-md-3">
         <div class="link-wrapper">
-          <h4 class="mb-3 fw-bold fs-6">Company</h4>
+          <h4 class="mb-3 fw-bold fs-6 text-white">Company</h4>
           <ul class="m-0 list-unstyled">
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class=" text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 About
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class=" text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Blog
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Careers
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Services
               </a>
             </li>
             <li class="mb-1">
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Newsroom
               </a>
             </li>
             <li>
-              <a href="#!" class="link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
+              <a href="#!" class="text-white link-underline-opacity-0 link-opacity-75-hover link-underline-opacity-100-hover link-offset-1 link-secondary">
                 Developers
               </a>
             </li>
@@ -209,22 +210,22 @@
         <div class="link-wrapper">
           <ul class="m-0 list-unstyled d-flex gap-3 gap-xl-4">
             <li>
-              <a href="#!" class="fs-8 link-dark bsb-ls-1 text-decoration-none link-opacity-75-hover">
+              <a href="#!" class="text-white fs-8 link-dark bsb-ls-1 text-decoration-none link-opacity-75-hover">
                 Legal
               </a>
             </li>
             <li>
-              <a href="#!" class="fs-8 link-dark bsb-ls-1 text-decoration-none link-opacity-75-hover">
+              <a href="#!" class="text-white fs-8 link-dark bsb-ls-1 text-decoration-none link-opacity-75-hover">
                 Status
               </a>
             </li>
             <li>
-              <a href="#!" class="fs-8 link-dark bsb-ls-1 text-decoration-none link-opacity-75-hover">
+              <a href="#!" class="text-white fs-8 link-dark bsb-ls-1 text-decoration-none link-opacity-75-hover">
                 Security
               </a>
             </li>
             <li>
-              <a href="#!" class="fs-8 link-dark bsb-ls-1 text-decoration-none link-opacity-75-hover">
+              <a href="#!" class="text-white fs-8 link-dark bsb-ls-1 text-decoration-none link-opacity-75-hover">
                 Cookies
               </a>
             </li>
@@ -275,30 +276,31 @@
     </div>
   </div>
 </div>
+</section>
 
 <!-- Copyright - Bootstrap Brain Component -->
 <div>
   <div class="container border-top pt-3 pt-md-4">
     <div class="row">
       <div class="col-12">
-        <div class="copyright-wrapper mb-1 fs-7 text-center">
+        <div class="copyright-wrapper mb-1 fs-7 text-center ">
           &copy; 2024. All Rights Reserved.
         </div>
-        <div class="credit-wrapper text-secondary fs-8 text-center">
-          Built by<a href="https://bootstrapbrain.com/" class="link-secondary text-decoration-none">
-            KELVIN</a> with <span class="text-primary">&#9829;</span>
+        <div class="credit-wrapper text-secondary fs-8 text-center text-gray-950">
+          Built by<a href="https://github.com/kiavin/" class="link-secondary text-decoration-none text-purple-400 hover:text-blue-600">
+            KELVIN</a> with <span class="text-danger">&#9829;</span>
         </div>
       </div>
     </div>
   </div>
 </div>
-
 </footer>
 </template>
 
 <style scoped> 
 .gradient-section {
-    background: linear-gradient(to bottom, #3a7bd5, #00d2ff); /* Adjust colors as needed */
+  background: linear-gradient(to bottom right, #5E33CA, #170C35);
+  /* Adjust colors as needed */
     color: #fff; /* Optional: set text color for contrast */
 }
 </style>
