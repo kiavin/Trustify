@@ -23,6 +23,16 @@ const routes = [
         component: Register
     },
     {
+path: '/Contact',
+name: 'contact',
+component: () => import('@/views/Contact.vue')
+    },
+    {
+        path: '/Features',
+        name: 'features',
+        component: () => import('@/views/Features.vue')
+    },
+    {
         path: '/dashboard/new-transaction',
         name: 'new-transaction',
         component: () => import('@/views/Transaction.vue')
