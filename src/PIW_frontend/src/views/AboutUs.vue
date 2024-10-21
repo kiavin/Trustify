@@ -338,11 +338,8 @@ import Nav from '@/components/Nav.vue'
         </section>
     </div>
     <div class="text-center">
-            <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
-                THE TEAM
-            </p>
             <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
-                Meet Our <span class="text-indigo-600">Team</span>
+                Our <span class="text-indigo-600">Vision</span>
             </h3>
         </div>
 
