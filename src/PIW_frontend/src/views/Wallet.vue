@@ -1,8 +1,9 @@
 <script setup>
+import ComingSoon from '../components/ComingSoon.vue';
 import DashboardLayout from '../Layout/DashboardLayout.vue';
 </script>
 <template>
     <DashboardLayout>
-<h1> wallet</h1>
+        <ComingSoon />
     </DashboardLayout>
 </template>
