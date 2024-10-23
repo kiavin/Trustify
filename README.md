@@ -136,4 +136,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-Trustify – Empowering trust in every transaction with the security of blockchain. Check out the live platform [here](https://kv2lk-baaaa-aaaal-qnaoq-cai.icp0.io/) and start securing your deals today!
+Trustify – Empowering trust in every transaction with the security of blockchain. Check out the live platform [here](https://kv2lk-baaaa-aaaal-qnaoq-cai.icp0.io/) https://kv2lk-baaaa-aaaal-qnaoq-cai.icp0.io/ and start securing your deals today!
