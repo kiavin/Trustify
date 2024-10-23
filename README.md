@@ -56,7 +56,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-repo/trustify.git
+git clone https://github.com/kiavin/Trustify.git
 Navigate to the project directory:
 
 bash
