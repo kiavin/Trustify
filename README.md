@@ -124,7 +124,8 @@ Trustify is built to reduce risks in online transactions by implementing an escr
 Thanks to these wonderful people who contribute to this project:
 
 - [kiavin](https://github.com/kiavin) - 16 contributions
-- [Vickey-m-victor](https://github.com/Vickey-m-victor) - 6 contributions
+- [Vickey-m-victor](https://github.com/Vickey-m-victor) - 8 contributions
+- [codetheuri](https://github.com/codetheuri) - 5 contributions
 
 ## License
 
