@@ -1,4 +1,4 @@
-# Trustify - Blockchain-based Escrow Platform
+# Trustify - Blockchain-based Escrow Platform(the project is on hold and looking for colaborators)
 
 Trustify is a decentralized escrow platform designed to provide a secure and transparent environment for transactions between buyers and sellers. Built using blockchain technology, it ensures that funds are only released once the agreed conditions are met, safeguarding both parties from fraud or disputes.
 
